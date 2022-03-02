@@ -1,5 +1,14 @@
 <?php
 
+require_once __DIR__ . '/Entity/Article.php';
+require_once __DIR__ . '/Entity/Role.php';
+require_once __DIR__ . '/Entity/User.php';
+
+require_once __DIR__ . '/Repository/Article.php';
+require_once __DIR__ . '/Repository/Role.php';
+require_once __DIR__ . '/Repository/User.php';
+
+
 /**
  * 1. Créez un dossier Entity
  * 2. Créez un dossier Manager ou mieux Repository
